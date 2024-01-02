@@ -1,0 +1,16 @@
+{
+    "configurations": [
+        
+        {
+            "name": "extract sound",
+            "type": "python",
+            "request": "launch",
+            "program": "main.py",
+            "console": "integratedTerminal",
+            "justMyCode": true,
+            "env": {
+                "PUBSUB_HOSTNAME": "localhost"
+            }
+        },
+    ]
+}
